@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="text-center">Stock</th>
+                <th class="text-center">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ share['name'] }} ({{ share['symbol'] }})</td>
+                <td>{{ share['price'] | usd }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+{% endblock %}

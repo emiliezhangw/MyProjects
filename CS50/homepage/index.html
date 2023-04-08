@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                let input = document.querySelector('input');
+                input.addEventListener('keyup', function(event) {
+                    let name = document.querySelector('p');
+                    if (input.value) {
+                        name.innerHTML = `hello, ${input.value}`;
+                    }
+                    else {
+                        name.innerHTML = 'hello, whoever you are';
+                    }
+                });
+            });
+        </script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <header class="topdiv">
+            <h1>hello homepage</h1>
+        </header>
+        <main class="cleardiv">
+            <form>
+                <input autocomplete="off" autofocus placeholder="Name" type="text">
+            </form>
+            <p></p>
+
+            <h2>My Favorite!</h2>
+            <p><em>I am glad to show you all things which I <b>like most</b>.</em></p>
+            <p>Please visit following links!</p>
+            <a href="https://loveskyship-solid-doodle-x5w4xpq46qp297v7-8080.preview.app.github.dev/1.html">music</a>
+            <a href="https://loveskyship-solid-doodle-x5w4xpq46qp297v7-8080.preview.app.github.dev/2.html">food</a>
+            <a href="https://loveskyship-solid-doodle-x5w4xpq46qp297v7-8080.preview.app.github.dev/3.html">travel</a>
+        </main>
+        <footer class="cleardiv">
+            <p>I hope you've enjoyed my homepage!</p>
+            <p class="subtitle">If you want to <em>achieve a success</em>, just try it. <b>Practice makes perfect. <em>You will never be ready</em></b>. </p>
+        </footer>
+    </body>
+</html>

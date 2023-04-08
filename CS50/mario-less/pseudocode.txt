@@ -1,0 +1,4 @@
+Prompt user for height
+If hight is not between 0 and 8, go back step 1
+Iterate from 1 through height:
+        1. On iteration i, print i - 1 spaces and i hashes and then a newline

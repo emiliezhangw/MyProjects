@@ -1,2 +1,2 @@
 # MyPortfolio
-What I have done in CS50 online courses
+Project I have done in my College courses and several online courses.

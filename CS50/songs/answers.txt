@@ -1,0 +1,9 @@
+
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+I think Orange should be the listener's "Audio Aura". As we can see from the table, the Average energy is 0.65906 and high energy is one of the
+feature of their lisetning apperaence, And Also those music has high key, which average is 5.33, the highest key is 11. It somewhat means the listener
+need high-energy sounds.
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+The way I calculated this aura did not take the weight of music into account. Maybe most of the music is high key and energy, while the most weighted
+music is not so. So, We can give weight and take more features into account when deciding their Audio Aura.

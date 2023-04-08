@@ -1,0 +1,22 @@
+sort1 uses: bubble sort
+
+How do you know?: As we are very lucky, we have a sorted array, then bubble sort can be the fastest, Ω(n)
+sort1: sorted5000 0.022; sorted10000 0.094,sorted50000 0.668;
+sort2: sorted5000 0.029; sorted10000 0.075,sorted50000 0.774;
+sort3: sorted5000 0.068; sorted10000 0.221,sorted50000 3.532;
+
+sort2 uses: merge sort
+
+How do you know?: as a random sort, with more numbers, the merge sort will use obviously less time than other two methods.
+sort1: random5000 0.067, random10000 0.271, random50000 8.537;
+sort2: random5000 0.075, random10000 0.063, random50000 0.811;
+sort3: random5000 0.071, random10000 0.206, random10000 4.099;
+
+sort3 uses: selection sort
+
+How do you know?: as we used reversed array, the sort1 uses longest time, and the sort2 uses the shortest time, we can know that bubble sort
+usually uses longer time than selection sort if we are not lucky enough with an sorted array, and the merge sort uses the
+shortest time, so sort3 uses selection sort.
+sort1: reversed5000 0.075,reversed10000 0.267, reversed50000 6.461;
+sort2: reversed5000 0.044,reversed10000 0.066, reversed50000 0.547;
+sort3: reversed5000 0.053,reversed10000 0.190, reversed50000 4.003;

@@ -1,3 +1,0 @@
-pip install tabulate
-pip install inflect
-pip install pyfiglet
